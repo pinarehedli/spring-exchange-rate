@@ -17,7 +17,6 @@ import java.util.Date;
 import java.util.List;
 
 @Service
-@RequiredArgsConstructor
 public class CurrencyService {
 
 	public List<Currency> getAllCurrencies(String date) {
