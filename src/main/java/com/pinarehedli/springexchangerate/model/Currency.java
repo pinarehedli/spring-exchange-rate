@@ -3,13 +3,11 @@ package com.pinarehedli.springexchangerate.model;
 import jakarta.xml.bind.annotation.XmlAttribute;
 import jakarta.xml.bind.annotation.XmlElement;
 import lombok.Setter;
-import lombok.ToString;
 
 import java.math.BigDecimal;
 
 
 @Setter
-@ToString
 public class Currency {
     private String code;
     private String nominal;

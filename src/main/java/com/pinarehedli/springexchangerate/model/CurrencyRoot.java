@@ -4,12 +4,10 @@ import jakarta.xml.bind.annotation.XmlAttribute;
 import jakarta.xml.bind.annotation.XmlElement;
 import jakarta.xml.bind.annotation.XmlRootElement;
 import lombok.Setter;
-import lombok.ToString;
 
 import java.util.List;
 
 @Setter
-@ToString
 @XmlRootElement(name = "ValCurs")
 public class CurrencyRoot {
     private String date;
